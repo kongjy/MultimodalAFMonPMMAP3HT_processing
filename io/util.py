@@ -188,3 +188,20 @@ def read_anfatec_params(path):
                     
     return scan_params, file_descriptions, spectra_descriptions
 
+def to_2d(spectralmatrix, laserpower):
+    """
+    Takes a raw 3-D N x M x S matrix and restructures it into a laser power corrected,
+    2D (NxM) x S matrix. 
+    """
+    xaxis=spectralmatrix.shape[0]
+    yaxis=spectralmatrix.shape[1]
+    zaxis=spectralmatrix[0,0,:].shape[0]
+    featurematrix=np.zeros((xaxis*yaxis, zaxis))
+    counter=-1
+    #loop over elements in spectralmatrix 
+    for x in range(xaxis):
+        for y in range(yaxis):
+            counter+=1 
+            for z in range(zaxis):
+                featurematrix[counter]=(spectralmatrix[x,y,:])/laserpower
+    return featurematrix
