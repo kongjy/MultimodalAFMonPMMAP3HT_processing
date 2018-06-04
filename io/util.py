@@ -155,7 +155,7 @@ def read_anfatec_params(path):
             #check to make sure its  not empty 
             if row:
                 # First line of the file is useless. We tell the reader to stop at ';'
-                if row[0] == unicode(';'):
+                if row[0] == ';':
                     continue
                 
                 # This string indicates that we have reached a channel description.
