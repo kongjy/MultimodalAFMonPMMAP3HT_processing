@@ -2,7 +2,7 @@
 Repository containing data, analysis workflow, and I/O and analysis scripts for processing multimodal atomic force 
 microscopy data in the paper titled ["Identifying Nanoscale Structure–Function Relationships Using Multimodal Atomic 
 Force Microscopy, Dimensionality Reduction, and Regression Techniques."](https://doi.org/10.1021/acs.jpclett.8b01003)
-If you find the notebook and workflow here useful, we'd appreciate if you cited our paper. 
+If you find the notebook and workflow here useful, we'd appreciate if you'd cite our paper. 
 
 ### About the Notebook
 The notebook contains extensive annotation via comments and additional information regarding the analysis can also be 
