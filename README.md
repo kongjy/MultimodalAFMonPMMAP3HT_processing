@@ -1,10 +1,10 @@
-#Multimodal AFM on PMMA & P3HT 
+# Multimodal AFM on PMMA & P3HT 
 Repository containing data, analysis workflow, and I/O and analysis scripts for processing multimodal atomic force 
 microscopy data in the paper titled ["Identifying Nanoscale Structure–Function Relationships Using Multimodal Atomic 
 Force Microscopy, Dimensionality Reduction, and Regression Techniques."](https://doi.org/10.1021/acs.jpclett.8b01003)
 If you find the notebook and workflow here useful, we'd appreciate if you cited our paper. 
 
-###About the Notebook
+### About the Notebook
 The notebook contains extensive annotation via comments and additional information regarding the analysis can also be 
 found in the SI of the paper. Broadly, the analysis steps are as follow:
 
@@ -16,7 +16,7 @@ found in the SI of the paper. Broadly, the analysis steps are as follow:
 6. Hyperspectral unmixing results using standard inputs with a variety of techniques (NMF, ATGP, NFINDR, PPI, and VCA).
 7. How each SI figure was generated. 
 
-###Other Information
+### Other Information
 The notebook was written in Python 3.5. Aside from the typical Python computing packages (like scipy, numpy, and
 sklearn), [dipy](https://dipy.org/) is required. 
 
