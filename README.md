@@ -20,7 +20,7 @@ found in the SI of the paper. Broadly, the analysis steps are as follow:
 The notebook was written in Python 3.5. Aside from the typical Python computing packages (like scipy, numpy, and
 sklearn), [dipy](https://dipy.org/) is required. 
 
-If you are interested in registering multimodal image data, check out this repository where I provide a step-by-step
+If you are interested in registering multimodal image data, check out [this notebook](https://github.com/kongjy/DipyImageAlignentTutorial/blob/master/Image%20Registration%20Tutorial%20with%20Dipy.ipynb) where I provide a step-by-step
 tutorial (beginning with installing Python with Conda) on how to do so with dipy. It also contains commentary on what's 
 happening under the hood. If you use dipy for image registration, please cite the package according to the guidelines as
 indicated by the developers of the package [here](https://dipy.org/documentation/1.1.1./cite/#a-note-on-citing-our-work).
