@@ -11,7 +11,7 @@ found in the SI of the paper. Broadly, the analysis steps are as follow:
 1. Register PiFM and cAFM image data.
 2. Apply PCA to the hyperspectral data.
 3. Perform PCR using the registered image data and first 10 PCs. 
-4. Calculate error metrics (F-statistic, RSS, R<sup>2</sup>)
+4. Calculate error metrics (F-statistic, RSS, R<sup>2</sup>).
 5. Error analysis showing utility of combining PiFM and cAFM image data. 
 6. Hyperspectral unmixing results using standard inputs with a variety of techniques (NMF, ATGP, NFINDR, PPI, and VCA).
 7. How each SI figure was generated. 
