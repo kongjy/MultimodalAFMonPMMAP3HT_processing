@@ -24,7 +24,7 @@ If you are interested in registering multimodal image data, check out this repos
 tutorial (beginning with installing Python with Conda) on how to do so with dipy. It also contains commentary on what's 
 happening under the hood. If you use dipy for image registration, please cite the package according to the guidelines as
 indicated by the developers of the package [here](https://dipy.org/documentation/1.1.1./cite/#a-note-on-citing-our-work).
-###Contact:
+### Contact:
 The corresponding author on the paper is:
 ```
 David S. Ginger, Ph.D.
