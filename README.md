@@ -35,7 +35,7 @@ Chief Scientist, UW Clean Energy Institute
 Founding Co-Director, Northwest Institute for Materials Physics, Chemistry, and Technology (NW IMPACT)
 Washington Research Foundation Distinguished Scholar
 Associate Editor, Chemical Reviews
-Email: dginger at uw dot edu
+E-mail: dginger at uw dot edu
 ```
 Questions regarding the code, analysis, and workflow can also be directed to:
 ```
